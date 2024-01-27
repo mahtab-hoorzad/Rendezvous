@@ -13,6 +13,14 @@ function App() {
           <Link to="/">
             <img src={logo} alt="Rendezvous" className="w-16 md:w-16" />
           </Link>
+          <ul>
+            <li><a href="/about">My Groups</a></li>
+            <li><a href="/contact">Calendar</a></li>
+          </ul>
+          {/* move it to right end of the nav bar */}
+          <div className="login-button">
+            <button>Login</button>
+          </div>
         </nav>
 
         {/* Routes */}
