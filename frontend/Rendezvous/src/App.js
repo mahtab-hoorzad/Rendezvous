@@ -2,6 +2,8 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom';
 import logo from './logo.svg';
 import Home from './Screens/Home';
+import CreateGroup from './Screens/CreateGroup';
+
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
         {/* Routes */}
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/create" element={<CreateGroup />} />
+
         </Routes>
       </div>
     </Router>
